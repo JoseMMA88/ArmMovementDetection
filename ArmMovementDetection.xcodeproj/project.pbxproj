@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14382AA42D70CF4300EB20B1 /* SessionDelegater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14382AA32D70CF3E00EB20B1 /* SessionDelegater.swift */; };
+		14382AA52D70CF4300EB20B1 /* SessionDelegater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14382AA32D70CF3E00EB20B1 /* SessionDelegater.swift */; };
+		14382AA72D70CF7900EB20B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14382AA62D70CF7300EB20B1 /* ContentView.swift */; };
+		14382AA82D70CF7900EB20B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14382AA62D70CF7300EB20B1 /* ContentView.swift */; };
 		14A328B92D54B6B80074AE62 /* ArmMovementDetectionWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 14A328962D54B6B60074AE62 /* ArmMovementDetectionWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		14A8D0FD2D70C2AB00EA37DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A8D0F62D70C2AB00EA37DA /* Preview Assets.xcassets */; };
+		14A8D0FE2D70C2AB00EA37DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A8D0FA2D70C2AB00EA37DA /* Assets.xcassets */; };
+		14A8D0FF2D70C2AB00EA37DA /* ArmMovementDetectionWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D0F92D70C2AB00EA37DA /* ArmMovementDetectionWatchApp.swift */; };
+		14A8D1042D70C2AF00EA37DA /* ArmMovementDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D1012D70C2AF00EA37DA /* ArmMovementDetectionUITests.swift */; };
+		14A8D1052D70C2AF00EA37DA /* ArmMovementDetectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D1022D70C2AF00EA37DA /* ArmMovementDetectionUITestsLaunchTests.swift */; };
+		14A8D1082D70C2B400EA37DA /* ArmMovementDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D1062D70C2B400EA37DA /* ArmMovementDetectionTests.swift */; };
+		14A8D1172D70C2B900EA37DA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D1132D70C2B900EA37DA /* Item.swift */; };
+		14A8D11D2D70C2BD00EA37DA /* ArmMovementDetectionWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D11B2D70C2BD00EA37DA /* ArmMovementDetectionWatch_Watch_AppTests.swift */; };
+		14A8D1212D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D11E2D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITests.swift */; };
+		14A8D1222D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D11F2D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITestsLaunchTests.swift */; };
+		14A8D1392D70CBC300EA37DA /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D1382D70CBC000EA37DA /* Counter.swift */; };
+		14A8D13A2D70CBDF00EA37DA /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A8D1382D70CBC000EA37DA /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,56 +79,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14382AA32D70CF3E00EB20B1 /* SessionDelegater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegater.swift; sourceTree = "<group>"; };
+		14382AA62D70CF7300EB20B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14A3285D2D54B5990074AE62 /* ArmMovementDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArmMovementDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A328712D54B59B0074AE62 /* ArmMovementDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmMovementDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A3287B2D54B59B0074AE62 /* ArmMovementDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArmMovementDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A328962D54B6B60074AE62 /* ArmMovementDetectionWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArmMovementDetectionWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A328A52D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArmMovementDetectionWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A328AF2D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArmMovementDetectionWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14A8D0F62D70C2AB00EA37DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14A8D0F82D70C2AB00EA37DA /* ArmMovementDetectionWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ArmMovementDetectionWatch Watch App.entitlements"; sourceTree = "<group>"; };
+		14A8D0F92D70C2AB00EA37DA /* ArmMovementDetectionWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmMovementDetectionWatchApp.swift; sourceTree = "<group>"; };
+		14A8D0FA2D70C2AB00EA37DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14A8D1012D70C2AF00EA37DA /* ArmMovementDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmMovementDetectionUITests.swift; sourceTree = "<group>"; };
+		14A8D1022D70C2AF00EA37DA /* ArmMovementDetectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmMovementDetectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14A8D1062D70C2B400EA37DA /* ArmMovementDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmMovementDetectionTests.swift; sourceTree = "<group>"; };
+		14A8D1102D70C2B900EA37DA /* ArmMovementDetection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArmMovementDetection.entitlements; sourceTree = "<group>"; };
+		14A8D1122D70C2B900EA37DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A8D1132D70C2B900EA37DA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		14A8D11B2D70C2BD00EA37DA /* ArmMovementDetectionWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmMovementDetectionWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		14A8D11E2D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmMovementDetectionWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		14A8D11F2D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmMovementDetectionWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14A8D1382D70CBC000EA37DA /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		14A328832D54B59B0074AE62 /* Exceptions for "ArmMovementDetection" folder in "ArmMovementDetection" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 14A3285C2D54B5990074AE62 /* ArmMovementDetection */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		14A3285F2D54B5990074AE62 /* ArmMovementDetection */ = {
+		14A8D12C2D70C62400EA37DA /* resources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				14A328832D54B59B0074AE62 /* Exceptions for "ArmMovementDetection" folder in "ArmMovementDetection" target */,
-			);
-			path = ArmMovementDetection;
-			sourceTree = "<group>";
-		};
-		14A328742D54B59B0074AE62 /* ArmMovementDetectionTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ArmMovementDetectionTests;
-			sourceTree = "<group>";
-		};
-		14A3287E2D54B59B0074AE62 /* ArmMovementDetectionUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ArmMovementDetectionUITests;
-			sourceTree = "<group>";
-		};
-		14A328972D54B6B60074AE62 /* ArmMovementDetectionWatch Watch App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ArmMovementDetectionWatch Watch App";
-			sourceTree = "<group>";
-		};
-		14A328A82D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ArmMovementDetectionWatch Watch AppTests";
-			sourceTree = "<group>";
-		};
-		14A328B22D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ArmMovementDetectionWatch Watch AppUITests";
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -166,12 +160,12 @@
 		14A328542D54B5990074AE62 = {
 			isa = PBXGroup;
 			children = (
-				14A3285F2D54B5990074AE62 /* ArmMovementDetection */,
-				14A328742D54B59B0074AE62 /* ArmMovementDetectionTests */,
-				14A3287E2D54B59B0074AE62 /* ArmMovementDetectionUITests */,
-				14A328972D54B6B60074AE62 /* ArmMovementDetectionWatch Watch App */,
-				14A328A82D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppTests */,
-				14A328B22D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppUITests */,
+				14A8D1142D70C2B900EA37DA /* ArmMovementDetection */,
+				14A8D1072D70C2B400EA37DA /* ArmMovementDetectionTests */,
+				14A8D1032D70C2AF00EA37DA /* ArmMovementDetectionUITests */,
+				14A8D0FC2D70C2AB00EA37DA /* ArmMovementDetectionWatch Watch App */,
+				14A8D11C2D70C2BD00EA37DA /* ArmMovementDetectionWatch Watch AppTests */,
+				14A8D1202D70C2BF00EA37DA /* ArmMovementDetectionWatch Watch AppUITests */,
 				14A3285E2D54B5990074AE62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -187,6 +181,97 @@
 				14A328AF2D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		14A8D0F72D70C2AB00EA37DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14A8D0F62D70C2AB00EA37DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14A8D0FC2D70C2AB00EA37DA /* ArmMovementDetectionWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				14A8D1232D70C3F600EA37DA /* managers */,
+				14A8D0F72D70C2AB00EA37DA /* Preview Content */,
+				14A8D0F82D70C2AB00EA37DA /* ArmMovementDetectionWatch Watch App.entitlements */,
+				14A8D0F92D70C2AB00EA37DA /* ArmMovementDetectionWatchApp.swift */,
+				14A8D0FA2D70C2AB00EA37DA /* Assets.xcassets */,
+			);
+			path = "ArmMovementDetectionWatch Watch App";
+			sourceTree = "<group>";
+		};
+		14A8D1032D70C2AF00EA37DA /* ArmMovementDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14A8D1012D70C2AF00EA37DA /* ArmMovementDetectionUITests.swift */,
+				14A8D1022D70C2AF00EA37DA /* ArmMovementDetectionUITestsLaunchTests.swift */,
+			);
+			path = ArmMovementDetectionUITests;
+			sourceTree = "<group>";
+		};
+		14A8D1072D70C2B400EA37DA /* ArmMovementDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A8D1062D70C2B400EA37DA /* ArmMovementDetectionTests.swift */,
+			);
+			path = ArmMovementDetectionTests;
+			sourceTree = "<group>";
+		};
+		14A8D1092D70C2B900EA37DA /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				14382AA62D70CF7300EB20B1 /* ContentView.swift */,
+				14382AA32D70CF3E00EB20B1 /* SessionDelegater.swift */,
+				14A8D1382D70CBC000EA37DA /* Counter.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		14A8D10A2D70C2B900EA37DA /* managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		14A8D1142D70C2B900EA37DA /* ArmMovementDetection */ = {
+			isa = PBXGroup;
+			children = (
+				14A8D1092D70C2B900EA37DA /* shared */,
+				14A8D10A2D70C2B900EA37DA /* managers */,
+				14A8D12C2D70C62400EA37DA /* resources */,
+				14A8D1102D70C2B900EA37DA /* ArmMovementDetection.entitlements */,
+				14A8D1122D70C2B900EA37DA /* Info.plist */,
+				14A8D1132D70C2B900EA37DA /* Item.swift */,
+			);
+			path = ArmMovementDetection;
+			sourceTree = "<group>";
+		};
+		14A8D11C2D70C2BD00EA37DA /* ArmMovementDetectionWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				14A8D11B2D70C2BD00EA37DA /* ArmMovementDetectionWatch_Watch_AppTests.swift */,
+			);
+			path = "ArmMovementDetectionWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		14A8D1202D70C2BF00EA37DA /* ArmMovementDetectionWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14A8D11E2D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITests.swift */,
+				14A8D11F2D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ArmMovementDetectionWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		14A8D1232D70C3F600EA37DA /* managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +292,7 @@
 				14A328B82D54B6B80074AE62 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				14A3285F2D54B5990074AE62 /* ArmMovementDetection */,
+				14A8D12C2D70C62400EA37DA /* resources */,
 			);
 			name = ArmMovementDetection;
 			packageProductDependencies = (
@@ -229,9 +314,6 @@
 			dependencies = (
 				14A328732D54B59B0074AE62 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				14A328742D54B59B0074AE62 /* ArmMovementDetectionTests */,
-			);
 			name = ArmMovementDetectionTests;
 			packageProductDependencies = (
 			);
@@ -252,9 +334,6 @@
 			dependencies = (
 				14A3287D2D54B59B0074AE62 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				14A3287E2D54B59B0074AE62 /* ArmMovementDetectionUITests */,
-			);
 			name = ArmMovementDetectionUITests;
 			packageProductDependencies = (
 			);
@@ -273,9 +352,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				14A328972D54B6B60074AE62 /* ArmMovementDetectionWatch Watch App */,
 			);
 			name = "ArmMovementDetectionWatch Watch App";
 			packageProductDependencies = (
@@ -297,9 +373,6 @@
 			dependencies = (
 				14A328A72D54B6B80074AE62 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				14A328A82D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppTests */,
-			);
 			name = "ArmMovementDetectionWatch Watch AppTests";
 			packageProductDependencies = (
 			);
@@ -319,9 +392,6 @@
 			);
 			dependencies = (
 				14A328B12D54B6B80074AE62 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				14A328B22D54B6B80074AE62 /* ArmMovementDetectionWatch Watch AppUITests */,
 			);
 			name = "ArmMovementDetectionWatch Watch AppUITests";
 			packageProductDependencies = (
@@ -414,6 +484,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8D0FD2D70C2AB00EA37DA /* Preview Assets.xcassets in Resources */,
+				14A8D0FE2D70C2AB00EA37DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +510,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8D1392D70CBC300EA37DA /* Counter.swift in Sources */,
+				14382AA72D70CF7900EB20B1 /* ContentView.swift in Sources */,
+				14382AA52D70CF4300EB20B1 /* SessionDelegater.swift in Sources */,
+				14A8D1172D70C2B900EA37DA /* Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8D1082D70C2B400EA37DA /* ArmMovementDetectionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +529,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8D1042D70C2AF00EA37DA /* ArmMovementDetectionUITests.swift in Sources */,
+				14A8D1052D70C2AF00EA37DA /* ArmMovementDetectionUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +538,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8D13A2D70CBDF00EA37DA /* Counter.swift in Sources */,
+				14382AA82D70CF7900EB20B1 /* ContentView.swift in Sources */,
+				14A8D0FF2D70C2AB00EA37DA /* ArmMovementDetectionWatchApp.swift in Sources */,
+				14382AA42D70CF4300EB20B1 /* SessionDelegater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +549,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8D11D2D70C2BD00EA37DA /* ArmMovementDetectionWatch_Watch_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +557,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A8D1212D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITests.swift in Sources */,
+				14A8D1222D70C2BF00EA37DA /* ArmMovementDetectionWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
